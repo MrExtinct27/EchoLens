@@ -95,6 +95,10 @@ EchoLens addresses these challenges by directly integrating with S3-based call s
 - **Full-stack system architecture**
 
 ---
+## System Architecture
+
+
+---
 
 ## AI-Driven Analytics & Executive Insights
 

@@ -96,23 +96,57 @@ EchoLens addresses these challenges by directly integrating with S3-based call s
 
 ---
 
-## System Architecture
+## AI-Driven Analytics & Executive Insights
 
-```
-React Frontend (Vite + TypeScript)
-        ↓  (presigned uploads)
-AWS S3 (Call Recordings)
-        ↓  (workers pull objects)
-FastAPI Backend (REST APIs)
-        ↓  (async job queue)
-Celery Workers + Redis
-        ↓
-OpenAI Transcription → Groq LLM Analysis
-        ↓
-PostgreSQL (Structured Data & Metrics)
-        ↓
-Analytics APIs → Dashboard
-```
+This module adds advanced analytics and **LLM-powered executive insights** built entirely on structured, explainable metrics stored in the database.
+
+### Design Principles
+- Metrics are computed first; LLMs only generate summaries.
+- LLMs operate on structured data, not raw transcripts.
+- All trends, scores, and insights are explainable and traceable.
+- Focused on actionable, management-level insights.
+
+---
+
+### Analytics Endpoints
+
+#### 1. Weekly Topic Trends  
+**GET** `/analytics/topic_trends?weeks=8`  
+
+Tracks weekly call volume and negative sentiment by topic, with trend classification (**up / down / flat**) based on week-over-week change.
+
+**Use case:** Early detection of emerging or declining customer issues.
+
+---
+
+#### 2. Resolution Effectiveness  
+**GET** `/analytics/resolution_effectiveness`  
+
+Computes resolution rate, negative sentiment rate, and average confidence score per topic.
+
+**Use case:** Identify issue categories that are poorly resolved and driving dissatisfaction.
+
+---
+
+#### 3. Escalation Risk Scoring  
+**GET** `/analytics/escalation_risk`  
+
+Generates an explainable risk score (0–1) per topic based on:
+- High negative sentiment  
+- Low resolution rate  
+- Rapid week-over-week growth  
+
+**Use case:** Prioritize topics that require immediate operational attention.
+
+---
+
+#### 4. LLM-Generated Executive Summary  
+**GET** `/analytics/executive_summary`  
+
+Generates a concise, executive-ready summary using an LLM **only after metrics are computed**.  
+The model receives structured analytics (trends, risks, sentiment) and converts them into a 2–4 sentence management insight.
+
+**Outcome:** Clear, data-grounded AI summaries without hallucination or unnecessary LLM usage.
 
 ---
 

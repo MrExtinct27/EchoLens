@@ -96,7 +96,7 @@ EchoLens addresses these challenges by directly integrating with S3-based call s
 
 ---
 ## System Architecture
-
+<img width="1236" height="1024" alt="SystemArch" src="https://github.com/user-attachments/assets/a4930073-a204-462f-bae2-d509317c7360" /> 
 
 ---
 

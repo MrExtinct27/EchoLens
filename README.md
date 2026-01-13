@@ -177,6 +177,4 @@ The model receives structured analytics (trends, risks, sentiment) and converts 
 
 ---
 
-## License
-
-MIT
+**Built with ❤️ by Yash Mahajan**

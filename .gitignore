@@ -1,0 +1,46 @@
+# General
+*.log
+*.tmp
+*.swp
+*.swo
+*.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+backend/venv/
+.venv/
+.env
+.env.*
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.DS_Store
+
+# Build artifacts
+build/
+dist/
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+venv/
+env/
+.env
+.DS_Store
+node_modules/
+dist/
+.vscode/
+.idea/
+*.log
+

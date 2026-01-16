@@ -5,12 +5,18 @@
 
 Customer support teams sit on thousands of hours of recorded calls, yet most of this data is never analyzed. Valuable signals about customer frustration, recurring issues, and operational failures remain buried in audio files, making it difficult for managers to act proactively.
 
-**EchoLens** is a full-stack, AI-powered customer support analytics platform that transforms raw customer support calls into **structured intelligence, actionable trends, and executive-ready insights**. It combines speech-to-text, large language models, scalable backend systems, and interactive dashboards to help organizations understand *what customers are saying, why issues are happening, and where intervention is required*.
+**EchoLens** is a full-stack, AI-powered customer support analytics platform that transforms raw customer support calls into **structured intelligence, actionable trends, and executive-ready insights**. It combines speech-to-text, large language models, scalable backend systems, and interactive dashboards to help organizations understand what customers are saying, why issues are happening, and where intervention is required.
 
 The system is designed as a **production-grade, cloud-native application**, emphasizing scalability, cost efficiency, and responsible AI usage.
 
 ---
+## Product Images 
+<img width="500" height="500" alt="Screenshot 2026-01-13 at 1 46 44 AM" src="https://github.com/user-attachments/assets/c21ef8d4-d82a-49b3-a733-155459e65650" />
+<img width="500" height="500" alt="Screenshot 2026-01-13 at 1 46 26 AM" src="https://github.com/user-attachments/assets/0bba7f41-8503-4e88-afc1-3af4512e1028" />
+<img width="500" height="500" alt="Screenshot 2026-01-13 at 1 46 06 AM" src="https://github.com/user-attachments/assets/85ef97fe-2705-49ac-b2bf-446f4f65c3e3" />
+<img width="500" height="500" alt="Screenshot 2026-01-13 at 1 45 35 AM" src="https://github.com/user-attachments/assets/ad959640-750b-4529-b207-89a1e5b9cf0d" />
 
+---
 ## Problem Statement
 
 - Customer support calls are unstructured and difficult to analyze at scale.
